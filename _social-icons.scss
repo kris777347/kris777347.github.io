@@ -1,0 +1,67 @@
+/* ==========================================================================
+   SOCIAL-ICONS
+   ========================================================================== */
+.social-icons{
+  margin-top: 4em;
+  padding: 20px 0;
+  color: #999;
+  font-size: 0.8rem; }
+
+.social-icons--link,
+.social-icons--title,
+.social-icons__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0;
+  padding: 0; }
+
+.social-icons--link,
+.social-icons--title,
+.social-icons__menu-item,
+.social-icons__menu-item--social,
+.social-icons__menu-label,
+.social-icons__menu-sep {
+  width: 50%;
+  font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase; }
+  @media (min-width: 37.5em) {
+  	.social-icons--link,
+  	.social-icons--title,
+    .social-icons__menu-item,
+    .social-icons__menu-item--social,
+    .social-icons__menu-label,
+    .social-icons__menu-sep {
+      width: initial; } }
+  .social-icons--link a,
+  .social-icons--title a,    
+  .social-icons__menu-item a,
+  .social-icons__menu-item--social a,
+  .social-icons__menu-label a,
+  .social-icons__menu-sep a{
+    display: block;
+    margin-right: 20px;
+    padding: 10px 0;
+    color: #999; }
+    .social-icons--link a:hover,
+    .social-icons--title a:hover,
+    .social-icons__menu-item a:hover,
+    .social-icons__menu-item--social a:hover,
+    .social-icons__menu-label a:hover,
+    .social-icons__menu-sep a:hover {
+      color: #000; }
+
+.social-icons__menu-item--social {
+  text-transform: none; }
+
+.social-icons__menu-sep {
+  padding: 10px 20px 10px 0; }
+
+.social-icons__copyright a {
+  color: #999;
+  border-bottom: 1px solid #e2e2e2; }
+  .social-icons a:hover {
+    border-bottom-style: solid; }
