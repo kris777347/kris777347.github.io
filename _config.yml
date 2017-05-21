@@ -1,11 +1,67 @@
----
-title: Kris777347.Github.Io
-timezone: UTC
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
-theme: jekyll-theme-leap-day
+# Site wide configuration
+
+title: "*Style, Smile, & Compile*"
+description: "I'm a Software Engineer & Certified STEM Tutor located in Fayetteville, AR."
+logo: # 120x120 px default image used for Twitter summary card
+teaser: # 400x250 px default teaser image used in image archive grid
+locale: en
+url: https://kris777347.github.io
+url: https://localhost:4000
+url: https://www.kristensiearrablanks.com
+feed:
+  path: atom.xml
+  
+# Jekyll configuration
+
+sass:
+  sass_dir: _sass
+  style: compressed
+permalink: /:categories/:title/
+kramdown:
+  toc_levels: 1..2
+highlighter: rouge
+gems:
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+
+
+# Site owner
+owner:
+  name: Kristen Blanks
+  email: Kris@kristensiearrablanks.com
+  twitter: KryptoPicasso
+  google: # get google+
+    ad-client:
+    ad-slot:
+  github: kris777347  
+  bio: Hello! My name is Kristen, and Im a Software Engineer & Certified STEM Tutor located in Fayetteville, AR.
+  avatar: bio-photo.jpg # 160x160 px image for author byline
+  disqus-shortname: kseb.disqus.com
+
+
+include:
+  - .htaccess
+exclude:
+  - "*.less"
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - config
+  - gulpfile.js
+  - lib
+  - log
+  - node_modules
+  - package.json
+  - spec
+  - tmp

@@ -1,0 +1,16 @@
+<header role="contentinfo" id="masthead">
+   <blockquote><a href="{{ site.url }}/" class="site-title">{{ site.title }}</a></blockquote>
+    <div class="inner-wrap">
+      <nav role="navigation" class="menu top-menu">  
+      	<ul class="sub-menu-item">
+        {% for link in site.data.navigation %}
+        {% if link.url contains 'https' %}
+          {% assign domain = '' %}
+          {% else %}
+          {% assign domain = site.url %}
+        {% endif %}
+        <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" {% endif %}>{{ link.title }}</a></li>
+        {% endfor %}
+    </nav>
+  </div><!-- /.inner-wrap -->
+</header><!-- /.masthead -->

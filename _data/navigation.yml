@@ -1,0 +1,16 @@
+# Site navigation links
+
+- title: Home
+  url: http://kristensiearrablanks.com
+- title: Blog
+  url: /Blog/
+  excerpt: "Keeping up with KB"
+- title: Portfolio
+  url: /Portfolio/
+  excerpt: "Welcome! Feel free to look at things I’ve designed, illustrated, developed, coded, etc."
+- title: About
+  url: /About/
+  excerpt: "How my story began."
+- title: Contact
+  url: /Contact/
+  excerpt: "Kristen Blanks' Contact Info"

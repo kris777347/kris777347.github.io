@@ -1,0 +1,35 @@
+<footer role="contentinfo" id="site-footer">
+	<nav role="navigation" class="menu bottom-menu">
+		<ul class="menu-item"><!-- {% for link in site.data.footer %} {% if link.url contains 'https' %} {% assign domain = '' %} {% else %} {% assign domain = site.url %} {% endif %}
+			<li>
+				<a href="{{ domain }}{{ link.url }}" {% if link.url contains 'https' %}target="_blank" {% endif %}>{{ link.title }}</a> 			</li>{% endfor %}-->
+
+			
+			<li>
+				<a href="{{ site.url }}/faqs/">FAQs</a>
+			</li>
+			<li>
+				<a href="{{ site.url }}/contact/">Contact</a>
+			</li>
+			<li>
+				<a href="{{ site.url }}/support/">Support Me</a>
+			</li>
+			<li>
+				<a href="{{ site.url }}/terms/">Terms &amp; Policies</a>
+			</li>
+			<li>
+				<a href="{{ site.url }}/sitemap/">Sitemap</a>
+			</li>
+		</ul>
+	</nav>
+	<!-- /.bottom-menu -->
+	<p class="copyright">&#169; {{ site.time | date: '%Y' }}
+		<a href="{{ site.url }}">Kristen Blanks. </a>Powered by
+		<a href="http://jekyllrb.com" rel="nofollow">Jekyll</a>.
+		<a href="https://twitter.com/{{ site.owner.twitter }}" rel="me"><svg class="icon" width="15px" height="15px"><use xlink:href=" {% include social-icons/twitter.svg %}"></use></svg>  &nbsp; Twitter / </a>
+		<a href="https://www.instagram.com/{{ site.owner.instagram }}/" rel="me"><svg class="icon" width="15px" height="15px"><use xlink:href=" {% include social-icons/instagram.svg %}"></use></svg> &nbsp; Instagram /  </a>
+		<a href="https://www.github.com/{{ site.owner.github }}/" rel="me"><svg class="icon" width="15px" height="15px"><use xlink:href=" {% include social-icons/github.svg %}"></use></svg> &nbsp; Github / </a>
+		<a href="{{ site.owner.email }}/" rel="me"><svg class="icon" width="15px" height="15px"><use xlink:href=" {% include social-icons/email.svg %}"></use></svg> &nbsp; Linkedin / </a>
+		<a href="https://www.linkedin.com/{{ site.owner.google-plus }}/" rel="me"><svg class="icon" width="15px" height="15px"><use xlink:href=" {% include social-icons/google-plus.svg %}"></use></svg> &nbsp; Google-plus /</a>
+	</p>
+</footer>

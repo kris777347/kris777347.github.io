@@ -1,0 +1,37 @@
+# Footer navigation links
+
+colophon-menu:
+ - title: Blog
+   url: /Blog/
+ - title: Portfolio
+   url: /Portfolio/	  
+ - title: About
+   url: /About/
+ - title: Contact
+   url: /Contact/
+ - title: Support Me
+   url: /SupportMe/	   
+ - title: Sitemap
+   url: /Sitemap/	   
+ - title: Terms & Poicies
+   url: /TermsPolicies/  
+
+colophon-social:
+  - title: "Twitter"
+    url: https://twitter.com/KryptoPicasso
+    icon: icon-twitter
+  - title: "Instagram"
+    url: https://instagram.com/
+    icon: icon-instagram
+  - title: "Tumblr"
+    url: http://tumblr.com/
+    icon: icon-tumblr
+  - title: "Facebook"
+    url: https://facebook.com/
+    icon: icon-facebook
+  - title: "GitHub"
+    url: https://github.com/kris777347
+    icon: icon-github
+  - title: "Google+"
+    url: https://plus.google.com/
+    icon: icon-google-plus

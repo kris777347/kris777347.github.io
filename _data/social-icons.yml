@@ -1,0 +1,19 @@
+social-icons:
+- title: Twitter
+  url: https://twitter.com/KryptoPicasso
+  class: twitter
+- title: Instagram
+  url: https://instagram.com/
+  class: instagram
+- title: Tumblr
+  url: http://tumblr.com/
+  class: tumblr
+- title: Facebook
+  url: https://facebook.com/
+  class: facebook
+- title: GitHub
+  url: https://github.com/kris777347
+  class: github
+- title: Google+
+  url: https://plus.google.com/
+  class: google-plus
